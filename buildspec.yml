@@ -5,6 +5,8 @@ phases:
   install:
     commands:
       - go get -u github.com/kardianos/govendor
+  pre_build:
+      - echo "prebuild-pwd " `pwd`
       - govendor install
   build:
     commands:
