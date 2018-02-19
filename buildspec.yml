@@ -10,8 +10,9 @@ phases:
   pre_build:
     commands:
       - echo "fixing the go directory structure to search for deps"
+      - echo "current src directory is $CODEBUILD_SRC_DIR"
       - mkdir -p $REAL_BUILD_DIR
-      - ln -s $CODEBUILD_SRC_DIR $REAL_BUILD_DIR/sample-app/
+      - ln -s $CODEBUILD_SRC_DIR $REAL_BUILD_DIR/sample-app
   build:
     commands:
       - echo "building $REAL_BUILD_DIR"
