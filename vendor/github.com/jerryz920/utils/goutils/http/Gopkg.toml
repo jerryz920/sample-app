@@ -26,8 +26,8 @@
 
 
 [[constraint]]
-  branch = "master"
-  name = "github.com/jerryz920/utils"
+  name = "github.com/gorilla/mux"
+  version = "1.6.1"
 
 [[constraint]]
   name = "github.com/sirupsen/logrus"

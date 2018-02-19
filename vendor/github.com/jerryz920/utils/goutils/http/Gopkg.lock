@@ -14,12 +14,6 @@
   version = "v1.6.1"
 
 [[projects]]
-  branch = "master"
-  name = "github.com/jerryz920/utils"
-  packages = ["goutils/http"]
-  revision = "cc7bf7d43c0bad7f5c189bb7cca3c5db95589e12"
-
-[[projects]]
   name = "github.com/sirupsen/logrus"
   packages = ["."]
   revision = "d682213848ed68c0a260ca37d6dd5ace8423f5ba"
@@ -43,6 +37,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "38f508cb317cb0e0f1581bbb3442b47888fc8168c38a2c1ce47672a1947a50cc"
+  inputs-digest = "12738ab07395f45ef2ed5c3d3372d3f91b4ad792c83f40e858eb484079998f6c"
   solver-name = "gps-cdcl"
   solver-version = 1
