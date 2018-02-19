@@ -2,8 +2,15 @@
 version: 0.2
 
 phases:
+  install:
+    commands:
+      - go get -u github.com/kardianos/govendor
+      - govendor install
   build:
     commands:
+      - echo "pwd = " `pwd` 
+      - echo "GOPATH=$GOPATH, GOROOT=$GOROOT"
+      - go version
       - go build
 
 artifacts:
