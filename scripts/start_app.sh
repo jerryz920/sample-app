@@ -1,3 +1,4 @@
 #!/bin/bash
 
-./sample_app
+cd /opt/sample
+./sample-app
