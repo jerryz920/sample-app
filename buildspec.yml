@@ -22,3 +22,5 @@ phases:
 artifacts:
   files:
     - sample-app
+    - appspec.yml
+    - index.html
